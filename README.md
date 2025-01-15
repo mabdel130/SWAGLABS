@@ -40,7 +40,7 @@ To set up and test the SauceDemo Checkout Step One page locally, follow these st
 1. Clone the repository:
 
    ```bash
-   //>>>git clone https://github.com/yourusername/saucedemo-checkout-step-one.git
+   //>>>git clone https://github.com/mabdel130/SWAGLABS.git
 2. Navigate to the project directory: cd saucedemo-checkout-step-one
 3. Install dependencies: npm install
 
