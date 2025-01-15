@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs">
+    <parameter name="browsername" value=""/>
+    <suite-files>
+        <suite-file path="complete_checkout.xml"/>
+        <suite-file path="return_Back_to_Continue_Shopping.xml"/>
+
+    </suite-files>
+</suite>
