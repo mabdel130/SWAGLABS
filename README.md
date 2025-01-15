@@ -1,5 +1,4 @@
-# SauceDemo Checkout Step One
-
+# SauceDemo E-commerce Application
 ![SauceDemo Logo](https://www.saucedemo.com/v1/img/Login_Bot_graphic.png)
 
 ## Table of Contents
@@ -14,24 +13,19 @@
 
 ## Introduction
 
-**SauceDemo Checkout Step One** is part of the SauceDemo e-commerce application. This page facilitates user information input during the checkout process. Users can provide their personal details to proceed with their orders seamlessly. This repository contains the source code and documentation for automating and testing this functionality.
+**SauceDemo is a web-based application designed primarily for educational and testing purposes. It is widely used by software testing engineers, QA professionals, and automation developers to practice and demonstrate skills in manual and automated testing. The application simulates an e-commerce platform, providing various elements and functionalities that are typical in real-world web applications.
 
-## Examples
+## Features 
 
-### Local Testing Execution Example
-
-![Local testing execution example](sequntialexecution.gif)
-
-### Parallel Testing Execution Example
-
-![Parallel testing execution example](parallelexecution.gif)
-
-## Features
-
-- **User Information Input**: Collects user details like first name, last name, and zip/postal code.
-- **Form Validation**: Ensures all required fields are filled before proceeding.
-- **Seamless Navigation**: Allows users to continue to the next checkout step after providing valid information.
-- **Responsive Design**: Optimized for use across devices, including desktops, tablets, and mobile phones.
+1. User Authentication: Supports login with multiple user roles to test access control and edge cases.
+2. Product Catalog: Displays a variety of products with detailed names, images, descriptions, and prices.
+3. Sorting and Filtering: Provides options to sort products by price or name for an enhanced user experience.
+4. Shopping Cart: Allows users to add, remove, and review selected items before proceeding to checkout.
+5. Checkout Workflow: Includes input validation for user details (e.g., name, zip code) and displays an order summary for confirmation.
+6. Error Simulation: Contains intentional bugs for debugging and testing (e.g., broken images, problematic data).
+7. Performance Optimization: Designed to handle stress testing scenarios for evaluating system performance.
+8. Cross-Platform Compatibility: Responsive design ensures usability across desktop, tablet, and mobile devices.
+ 
 
 ## Installation
 
