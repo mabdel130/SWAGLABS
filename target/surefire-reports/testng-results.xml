@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T14:49:07 EET" name="sprint1" finished-at="2025-01-18T14:49:19 EET" duration-ms="11655">
+  <suite started-at="2025-01-18T15:13:40 EET" name="sprint1" finished-at="2025-01-18T15:13:53 EET" duration-ms="13004">
     <groups>
     </groups>
-    <test started-at="2025-01-18T14:49:07 EET" name="Login to SwagLabs With Valid Credientials" finished-at="2025-01-18T14:49:19 EET" duration-ms="11655">
+    <test started-at="2025-01-18T15:13:40 EET" name="Login to SwagLabs With Valid Credientials" finished-at="2025-01-18T15:13:53 EET" duration-ms="13004">
       <class name="testcases.TC06_Complete_checkout">
-        <test-method is-config="true" signature="bruteforce()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T14:49:07 EET" name="bruteforce" finished-at="2025-01-18T14:49:07 EET" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="bruteforce()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T15:13:40 EET" name="bruteforce" finished-at="2025-01-18T15:13:40 EET" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bruteforce -->
-        <test-method is-config="true" signature="OpenBrower(java.lang.String)[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T14:49:07 EET" name="OpenBrower" finished-at="2025-01-18T14:49:14 EET" duration-ms="6426" status="PASS">
+        <test-method is-config="true" signature="OpenBrower(java.lang.String)[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T15:13:40 EET" name="OpenBrower" finished-at="2025-01-18T15:13:47 EET" duration-ms="7205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,35 +22,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrower -->
-        <test-method signature="confirmationOrder_P()[pri:1, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T14:49:14 EET" name="confirmationOrder_P" description="Verify order confirmation message" finished-at="2025-01-18T14:49:19 EET" duration-ms="4812" status="PASS">
+        <test-method signature="confirmationOrder_P()[pri:1, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T15:13:47 EET" name="confirmationOrder_P" description="Verify order confirmation message" finished-at="2025-01-18T15:13:53 EET" duration-ms="5473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmationOrder_P -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T14:49:19 EET" name="TearDown" finished-at="2025-01-18T14:49:19 EET" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T15:13:53 EET" name="TearDown" finished-at="2025-01-18T15:13:53 EET" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T14:49:19 EET" name="afterSuite" finished-at="2025-01-18T14:49:19 EET" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC06_Complete_checkout@4f209819]" started-at="2025-01-18T15:13:53 EET" name="afterSuite" finished-at="2025-01-18T15:13:53 EET" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testcases.TC06_Complete_checkout -->
     </test> <!-- Login to SwagLabs With Valid Credientials -->
   </suite> <!-- sprint1 -->
-  <suite started-at="2025-01-18T14:49:40 EET" name="Swaglabs" finished-at="2025-01-18T14:49:40 EET" duration-ms="0">
+  <suite started-at="2025-01-18T15:14:13 EET" name="Swaglabs" finished-at="2025-01-18T15:14:13 EET" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Swaglabs -->
-  <suite started-at="2025-01-18T14:49:19 EET" name="sprint1 (0)" finished-at="2025-01-18T14:49:39 EET" duration-ms="20017">
+  <suite started-at="2025-01-18T15:13:53 EET" name="sprint1 (0)" finished-at="2025-01-18T15:14:13 EET" duration-ms="20212">
     <groups>
     </groups>
-    <test started-at="2025-01-18T14:49:19 EET" name="Login to SwagLabs With Valid Credientials" finished-at="2025-01-18T14:49:39 EET" duration-ms="20017">
+    <test started-at="2025-01-18T15:13:53 EET" name="Login to SwagLabs With Valid Credientials" finished-at="2025-01-18T15:14:13 EET" duration-ms="20212">
       <class name="testcases.TC07_Return_Back_to_Continue_Shopping">
-        <test-method is-config="true" signature="bruteforce()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T14:49:19 EET" name="bruteforce" finished-at="2025-01-18T14:49:19 EET" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="bruteforce()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T15:13:53 EET" name="bruteforce" finished-at="2025-01-18T15:13:53 EET" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bruteforce -->
-        <test-method is-config="true" signature="OpenBrower(java.lang.String)[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T14:49:19 EET" name="OpenBrower" finished-at="2025-01-18T14:49:26 EET" duration-ms="6506" status="PASS">
+        <test-method is-config="true" signature="OpenBrower(java.lang.String)[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T15:13:53 EET" name="OpenBrower" finished-at="2025-01-18T15:13:59 EET" duration-ms="6269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrower -->
-        <test-method signature="Continue_Shopping_P()[pri:1, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T14:49:26 EET" name="Continue_Shopping_P" description="Verify That user can Continue Shopping" finished-at="2025-01-18T14:49:39 EET" duration-ms="13173" status="PASS">
+        <test-method signature="Continue_Shopping_P()[pri:1, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T15:13:59 EET" name="Continue_Shopping_P" description="Verify That user can Continue Shopping" finished-at="2025-01-18T15:14:13 EET" duration-ms="13633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Continue_Shopping_P -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T14:49:39 EET" name="TearDown" finished-at="2025-01-18T14:49:39 EET" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T15:14:13 EET" name="TearDown" finished-at="2025-01-18T15:14:13 EET" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T14:49:39 EET" name="afterSuite" finished-at="2025-01-18T14:49:40 EET" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC07_Return_Back_to_Continue_Shopping@7334aada]" started-at="2025-01-18T15:14:13 EET" name="afterSuite" finished-at="2025-01-18T15:14:13 EET" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
