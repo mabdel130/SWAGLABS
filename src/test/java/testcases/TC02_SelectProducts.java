@@ -5,7 +5,6 @@ import pages.P01_LoginPage;
 import pages.P02_SelectProductsPage;
 
 import static drivers.DriverHolder.getDriver;
-import static util.Utlity.shuffleString;
 
 public class TC02_SelectProducts extends BaseTest {
     private static Object input;
