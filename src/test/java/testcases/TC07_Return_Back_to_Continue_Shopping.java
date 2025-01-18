@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import pages.*;
 
 import static drivers.DriverHolder.getDriver;
+import static pages.BasePage.captureScreenshot;
 import static testcases.TC04_Add_My_Info.*;
 
 public class TC07_Return_Back_to_Continue_Shopping extends BaseTest {
@@ -19,7 +20,7 @@ public class TC07_Return_Back_to_Continue_Shopping extends BaseTest {
         new P02_SelectProductsPage(getDriver()).selectRandomProducts(3, 6).clickOnShoppingCartButton();
         Thread.sleep(500);
 
-
+        captureScreenshot(getDriver(),"select products");
         // TODO: select checkout step one
         new P03_Checkout_step_onePage(getDriver()).clickoncheckoutbutton();
         Thread.sleep(500);
@@ -59,7 +60,7 @@ public class TC07_Return_Back_to_Continue_Shopping extends BaseTest {
         //TODO: checkout-step-two
         new P05_checkout_step_twoPage(getDriver()).retrieveTotalPriceBeforeTax().retrieveTax().retrieveTotalPriceAfterTax().printCheckoutSummary().clickOnFinishButton();
 
-
+        captureScreenshot(getDriver(),"checkout_step_twoPage");
         P06_Complete_checkoutPage checkoutCompletePage = new P06_Complete_checkoutPage(getDriver())
                 .Confirm_my_order();
         Thread.sleep(500);
