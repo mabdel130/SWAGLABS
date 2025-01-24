@@ -1,0 +1,33 @@
+name: Run Selenium Tests on Safari
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: macos-latest  # macOS runner, necessary for Safari
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'  # Adjust to the Java version you're using
+
+      - name: Set up Maven
+        uses: actions/setup-java@v2
+        with:
+          maven-version: '3.8.1'  # Adjust to the Maven version you're using
+
+      - name: Install dependencies
+        run: mvn clean install
+
+      - name: Run tests
+        run: mvn test -Dbrowser=safari  # Run your tests with Safari
